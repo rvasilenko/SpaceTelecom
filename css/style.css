@@ -196,6 +196,9 @@ a:hover {
 	display: block;
 	padding: 17px 18px;
 	text-decoration: none;
+    -webkit-text-shadow: 1px 1px 1px #333;
+    -moz-text-shadow: 1px 1px 1px #333;
+    text-shadow: 1px 1px 1px #333;
 }
 #menu a:hover,
 #menu .active a {
