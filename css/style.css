@@ -63,7 +63,9 @@ a:hover {
 #footer .frame:after,
 .menu-columns:after,
 .main-holder:after,
-.widget .title:after {
+.widget .title:after,
+.news .item-title:after,
+.cities:after {
 	content: '';
 	display: block;
 	clear: both;
@@ -80,7 +82,7 @@ a:hover {
 /* header */
 #header {
 	height: 181px;
-    margin: 0 0 21px;
+    margin: 0 0 12px;
 }
 #header .holder {
 	padding: 12px 0 11px;
@@ -252,6 +254,7 @@ a:hover {
 #sidebar {
     float: right;
     width: 205px;
+    padding: 9px 0 0;
 }
 /* widget */
 .widget {
@@ -315,14 +318,149 @@ a:hover {
     text-decoration: underline;
 }
 .widget .entry {
+    overflow: hidden;
     background: #f3f3f4;
-    padding: 12px 15px;
     -webkit-border-bottom-right-radius: 3px;
     -webkit-border-bottom-left-radius: 3px;
     -moz-border-radius-bottomleft: 3px;
     -moz-border-radius-bottomright: 3px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+}
+.widget .entry a {
+    color: #4174c5;
+}
+/* news */
+.news .item {
+    border-top: 1px solid #dadbdb;
+    padding: 12px 15px 9px;
+    position: relative;
+}
+.news .item:first-child {
+    border-top: none;
+}
+.news .item:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.news .item:first-child:before {
+    display: none;
+}
+.news .item-title {
+    margin: 0 0 10px;
+}
+.news .item .photo {
+    float: left;
+    margin: 2px 10px 0 0;
+}
+.news .item .photo img {
+    vertical-align: top;
+}
+.news .date {
+    display: block;
+    font-size: 10px;
+    color: #888;
+}
+.news .caption {
+    font-size: 14px;
+}
+.news .caption a {
+    text-decoration: underline;
+}
+.news .caption a:hover {
+    text-decoration: none;
+}
+.news .item-entry {
+    line-height: 14px;
+}
+.news .more {
+    text-align: right;
+    padding: 0 14px 0 0;
+}
+/* questions */
+.questions .item {
+    padding: 15px 15px 20px;
+    color: #575757;
+    font-size: 14px;
+}
+.questions .item:nth-child(even) {
+    background: #e1e1e1;
+}
+.questions .item-title {
+    margin: 0 0 10px;
+}
+.questions .date {
+    display: block;
+    color: #050505;
+    margin: 0 0 3px;
+}
+.questions .caption {
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+}
+/* content */
+#content {
+    float: left;
+    width: 755px;
+}
+/* breadcrumbs */
+.breadcrumbs {
+    color: #888;
+}
+.breadcrumbs span,
+.breadcrumbs ul,
+.breadcrumbs li {
+    display: inline;
+}
+.breadcrumbs a {
+    color: #4174c5;
+}
+.breadcrumbs li {
+    background: url(../images/separator.png) no-repeat 0 50%;
+    padding: 0 0 0 10px;
+}
+.breadcrumbs li:first-child {
+    background: none;
+    padding-left: 0;
+}
+/* cities */
+.cities {
+    background: url(../images/bg-sat.jpg) no-repeat 50% 0;
+    padding: 38px 0 20px;
+    min-height: 393px;
+}
+.cities .city {
+    float: left;
+    text-align: center;
+    padding: 0 0 0 50px;
+}
+.cities .city:first-child {
+    padding-left: 0;
+}
+.cities .caption {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    -webkit-text-shadow: 3px 3px 3px #333;
+    -moz-text-shadow: 1px 1px 1px #333;
+    text-shadow: 1px 1px 2px #333;
+}
+.cities .caption a {
+    color: #4275c5;
+}
+.cities .photo {
+    min-height: 224px;
+    margin: 0 0 12px;
+}
+.cities .photo img {
+    vertical-align: middle;
 }
 /* footer */
 #footer {
