@@ -68,7 +68,8 @@ a:hover {
 .news .item-title:after,
 .cities:after,
 .contact-block:after,
-.contact-form .row:after{
+.contact-form .row:after,
+.city-inner:after {
 	content: '';
 	display: block;
 	clear: both;
@@ -459,15 +460,17 @@ a:hover {
     padding: 31px 0 20px;
     min-height: 342px;
 }
-.cities .city {
+.city {
     float: left;
     text-align: center;
+}
+.cities .city {
     padding: 0 0 0 50px;
 }
 .cities .city:first-child {
     padding-left: 0;
 }
-.cities .caption {
+.city .caption {
     display: block;
     text-align: center;
     font-size: 28px;
@@ -476,15 +479,50 @@ a:hover {
     -moz-text-shadow: 1px 1px 1px #333;
     text-shadow: 1px 1px 2px #333;
 }
-.cities .caption a {
+.city .caption a {
     color: #4275c5;
 }
-.cities .photo {
+.city .photo {
     min-height: 224px;
-    margin: 0 0 12px;
+    margin: 0 0 14px;
 }
-.cities .photo img {
+.city .photo img {
     vertical-align: middle;
+}
+.city-inner {
+    margin: 0 0 18px;
+}
+.city-inner .city {
+    padding: 28px 12px 0 0;
+}
+.city-inner .services .item {
+    width: 223px;
+}
+.city-inner .services {
+    float: right;
+    width: 454px;
+    margin: -12px 0 0;
+}
+.city-inner .services .widget {
+    margin: 0 0 5px;
+}
+.city-inner .services .widget .entry {
+    min-height: initial;
+    padding: 2px;
+}
+.city-inner .services .widget .title {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.city-inner .services .widget .photo {
+    padding: 0;
+    text-align: center;
+    width: 219px;
+    height: 110px;
+}
+.city-inner .services .widget .photo img {
+    /*width: auto;
+    max-height: 92px;*/
 }
 /* services */
 .services .item {
