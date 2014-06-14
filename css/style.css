@@ -70,7 +70,8 @@ a:hover {
 .contact-block:after,
 .contact-form .row:after,
 .city-inner:after,
-.news-feed .item:after {
+.news-feed .item:after,
+.partners .lists:after {
 	content: '';
 	display: block;
 	clear: both;
@@ -863,4 +864,72 @@ a:hover {
 	margin: 0;
 	line-height: 24px;
 }
-.solution li:last-child {}
+/* partners */
+.partners .widget .entry {
+	background: #fff;
+}
+.partners .lists {
+	padding: 37px 0 0 12px;
+}
+.partners .list {
+	float: left;
+	padding: 0 0 0 16px;
+}
+.partners .list li {
+	margin-bottom:45px;
+}
+.partners .list li img {
+	vertical-align: top;
+}
+.partners .list .partner1 {
+	padding: 9px 0 0 0;
+}
+.partners .list .partner2 {
+	padding: 0 0 0 9px;
+	margin-bottom: 42px;
+}
+.partners .list .partner3 {
+	padding: 0 0 0 6px;
+	margin-bottom: 66px;
+}
+.partners .list .partner4 {
+	padding: 0 0 0 35px;
+}
+.partners .list .partner5 {
+	padding: 6px 0 0;
+	margin-bottom: 53px;
+}
+.partners .list .partner6 {
+	padding: 0 0 0 28px;
+	margin-bottom: 85px;
+}
+.partners .list .partner7 {
+	padding: 0 0 0 16px;
+	margin-bottom: 62px;
+}
+.partners .list .partner8 {
+	padding: 0 0 0 29px;
+	margin-bottom: 36px;
+}
+.partners .list .partner9 {
+	padding: 0 0 0 26px;
+}
+.partners .list .partner10 {
+	padding: 0 0 0 25px;
+	margin-bottom: 37px;
+}
+.partners .list .partner11 {
+	padding: 0 0 0 13px;
+	margin-bottom: 42px;
+}
+.partners .list .partner12 {
+	padding: 0 0 0 38px;
+	margin-bottom: 42px;
+}
+.partners .list .partner13 {
+	padding: 0 0 0 12px;
+	margin-bottom: 32px;
+}
+.partners .list .partner14 {
+	padding: 0 0 0 8px;
+}
