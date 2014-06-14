@@ -848,3 +848,19 @@ a:hover {
 .product .photo a:last-child img {
 	margin: 0;
 }
+/* solution */
+.solution {
+	padding: 8px 2px 0;
+}
+.article .solution .caption {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 9px;
+}
+.solution li {
+	margin: 0;
+	line-height: 24px;
+}
+.solution li:last-child {}
