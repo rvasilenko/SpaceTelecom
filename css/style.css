@@ -588,6 +588,7 @@ a:hover {
     margin: 4px 0 0;
 }
 .article .photo img {
+	display: block;
     border: 2px solid #d3d3d3;
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -826,5 +827,24 @@ a:hover {
 	text-decoration: none;
 }
 .article .news-feed p {
+	margin: 0;
+}
+/* product */
+.price-row {
+	color: #8a5f03;
+	font-size: 14px;
+	padding: 0 4px 17px;
+	display: inline-block;
+}
+.price-row .price {
+	font-size: 24px;
+}
+.product .entry .caption {
+	margin: 0 0 7px;
+}
+.product .photo img {
+	margin: 0 0 15px;
+}
+.product .photo a:last-child img {
 	margin: 0;
 }
